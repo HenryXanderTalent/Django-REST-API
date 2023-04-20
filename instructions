@@ -1,0 +1,7 @@
+docker desktop needs to be open to run any docker commands in terminal
+
+everytime you add something to docker files run docker-compose build then docker-compose up
+
+docker-compose run --rm app /bin/sh -c 'python manage.py startapp core
+
+docker-compose run --rm app /bin/sh -c 'python manage.py test'
